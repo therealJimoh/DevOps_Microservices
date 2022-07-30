@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "FirstImage22"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-11707dwscccgs"
+s3_prefix = "FirstImage22"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["HelloWorldFunction=041796718685.dkr.ecr.us-east-1.amazonaws.com/firstimage22716b5438/helloworldfunction19d43fc4repo"]
