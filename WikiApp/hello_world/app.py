@@ -33,7 +33,6 @@ def lambda_handler(event, context):
         statusCode = BAD_REQUEST_STATUS
         res = "\nSorry, Cannot Handle this request!\n"
 
-    # res = wikipedia.summary(entity, sentences=1) # first sentence, result
 
     # print statements
     print(f"context: {context}, event: {event}")
